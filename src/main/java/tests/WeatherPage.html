@@ -1,0 +1,127 @@
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+<head>
+    <title>Wicket e Homepage</title>
+    <meta charset="utf8">
+    <style type="text/css">
+        table.contacts {
+            border-width: 0px;
+            border-color: gray;
+            border-collapse: collapse;
+        }
+        table.contacts th, table.contacts td {
+            border-width: 1px;
+            padding: 3px;
+            border-style: inset;
+            border-color: gray;
+        }
+        table.contacts th {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+
+<form wicket:id="form">
+
+    <fieldset style="display: inline-block;">
+        <legend>Фильтр</legend>
+        <div wicket:id="feedback"/>
+        <label>Дата с: </label><input type="text" wicket:id="dateFrom" value="2018-04-12" size="50" />
+        <label>Дата по: </label><input type="text" wicket:id="dateTo" value="2019-07-12" size="50" />
+        <input type="submit" wicket:id="filter" value="Filter" />
+        <input type="submit" wicket:id="reportbutton" value="Сформировать отчет"/><p>
+        <input type="submit" wicket:id="exppdf1" value="Экпорт в PDF (отчет №1)"/><p>
+        <input type="submit" wicket:id="exppdf2" value="Экпорт в PDF (отчет №2)"/><p>
+        <input type="submit" wicket:id="exphtml1" value="Экпорт в html (отчет №1)"/><p>
+        <input type="submit" wicket:id="exphtml2" value="Экпорт в html (отчет №2)"/><p>
+
+    </fieldset>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+<form wicket:id="form2">
+    <fieldset style="display: inline-block;">
+        <legend>Прогноз по Zip коду и дате</legend>
+
+        <label>ZIP код: </label><input type="text" wicket:id="zip" value="ZIP code" size="50" />
+        <label>Дата: </label><input type="text" wicket:id="date" value="Дата" size="50" />
+        <input type="submit" wicket:id="button" value="Прогноз" />
+    </fieldset>
+</form>
+
+
+
+
+<div wicket:id="content">
+
+    <table class="contacts">
+        <tr>
+            <th>Date and time</th>
+            <th>City</th>
+            <th>State</th>
+
+            <th>Weather ID</th>
+            <th>Description</th>
+            <th>Temp</th>
+
+            <th>Relative Humidity</th>
+            <th>Wind Speed</th>
+            <th>Wind Direction ID</th>
+        </tr>
+
+        <tr wicket:id="rows">
+            <td><span wicket:id="data">[data]</span></td>
+            <td><span wicket:id="city">[city]</span></td>
+            <td><span wicket:id="state">[State]</span></td>
+
+            <td><span wicket:id="weatherID">[weatherID]</span></td>
+            <td><span wicket:id="description">[Description]</span></td>
+            <td><span wicket:id="temp">[Temp]</span></td>
+
+            <td><span wicket:id="relativeHumidity">[Relative Humidity]</span></td>
+            <td><span wicket:id="wind">[Wind  Speed]</span></td>
+            <td><span wicket:id="windDirectionID">[Wind direction ID]</span></td>
+
+        </tr>
+    </table>
+</div>
+
+
+<form wicket:id="form3">
+<input type="submit" wicket:id="submit" value="Update ALL"/>
+</form>
+<br>
+<table class="contacts">
+
+    <tr>
+        <th>Date</th>
+        <th>Max Temp</th>
+        <th>Min Temp</th>
+        <th>Average Wind Direction</th>
+    </tr>
+    <tr wicket:id="rows2">
+        <td><span wicket:id="date2">[date2]</span></td>
+        <td><span wicket:id="maxtemp">[maxtemp]</span></td>
+        <td><span wicket:id="mintemp">[mintemp]</span></td>
+
+        <td><span wicket:id="avwind">[avwind]</span></td>
+    </tr>
+
+</table>
+
+</body>
+</html>

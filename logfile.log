@@ -1,0 +1,165 @@
+2018-04-28 19:09:38 INFO  WeatherPage:93 - report button is pressed
+2018-04-28 19:12:59 INFO  WeatherPage:339 - Page parameters were passed! Num is: 2 Type is: pdf
+2018-04-28 19:13:06 INFO  WeatherPage:339 - Page parameters were passed! Num is: 1 Type is: pdf
+2018-04-28 21:37:17 INFO  WeatherPage:352 - Page parameters have been passed! Num is: 1 Type is: pdf
+2018-04-28 22:04:12 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:12 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:12 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:12 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:25 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:25 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:25 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:25 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:55 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:55 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:55 INFO  WeatherPage:368 - on Component
+2018-04-28 22:04:55 INFO  WeatherPage:368 - on Component
+2018-04-28 22:05:07 INFO  WeatherPage:368 - on Component
+2018-04-28 22:05:07 INFO  WeatherPage:368 - on Component
+2018-04-28 22:05:07 INFO  WeatherPage:368 - on Component
+2018-04-28 22:05:07 INFO  WeatherPage:368 - on Component
+2018-04-28 22:07:48 INFO  WeatherPage:139 - on Click
+2018-04-28 22:09:24 INFO  WeatherPage:139 - on Click
+2018-04-28 22:38:27 INFO  WeatherPage:349 - Page parameters have been passed! Num is: 1 Type is: pdf
+2018-04-28 22:38:30 INFO  WeatherPage:349 - Page parameters have been passed! Num is: 2 Type is: pdf
+2018-04-28 22:38:34 INFO  WeatherPage:349 - Page parameters have been passed! Num is: 1 Type is: html
+2018-04-28 22:38:37 INFO  WeatherPage:349 - Page parameters have been passed! Num is: 2 Type is: html
+2018-05-03 09:30:18 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 09:31:33 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 09:43:28 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 09:44:32 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 09:45:54 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 09:46:49 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 09:48:33 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 09:48:34 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:48:34 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 09:48:34 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 09:48:34 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:48:34 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 09:48:34 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 09:48:34 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:48:47 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 09:48:47 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 09:48:47 INFO  WeatherPage:82 - DateTo from form is: 2018-03-25
+2018-05-03 09:48:47 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 09:48:47 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:54:07 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 09:54:26 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:54:47 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 09:54:47 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 09:54:47 INFO  WeatherPage:82 - DateTo from form is: 2018-06-25
+2018-05-03 09:54:47 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 09:54:47 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:55:46 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 09:55:46 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:55:48 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 09:55:48 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 09:55:48 INFO  WeatherPage:82 - DateTo from form is: 2018-06-25
+2018-05-03 09:55:48 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 09:55:48 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:59:27 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 09:59:28 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:59:28 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 09:59:28 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 09:59:28 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:59:29 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 09:59:29 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 09:59:29 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 09:59:33 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 09:59:33 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:03:54 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 10:04:03 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:06:13 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 10:13:07 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 10:13:08 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:13:08 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 10:13:08 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:13:08 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:13:09 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 10:13:09 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:13:09 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:18:51 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 10:20:32 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 10:20:33 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:20:33 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 10:20:33 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:20:33 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:20:33 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 10:20:33 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:20:33 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:21:06 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 10:21:10 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:21:17 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 10:21:17 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 10:21:17 INFO  WeatherPage:82 - DateTo from form is: 2018-05-25
+2018-05-03 10:21:17 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:21:17 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:26:30 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 10:26:31 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:26:32 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 10:26:32 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:26:32 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:26:32 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 10:26:32 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:26:32 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:29:24 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 10:29:34 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:29:46 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 10:29:46 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 10:29:46 INFO  WeatherPage:82 - DateTo from form is: 2018-03-25
+2018-05-03 10:29:46 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:29:46 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:29:59 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 10:29:59 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 10:29:59 INFO  WeatherPage:82 - DateTo from form is: 2018-05-25
+2018-05-03 10:29:59 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:29:59 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:30:16 INFO  WeatherPage:96 - report button is pressed
+2018-05-03 10:30:17 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:30:17 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:30:19 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 10:30:19 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 10:30:19 INFO  WeatherPage:82 - DateTo from form is: 2018-05-25
+2018-05-03 10:30:19 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:30:19 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:30:21 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:30:21 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:31:40 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: org.postgresql.Driver
+2018-05-03 10:31:41 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:31:41 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 10:31:41 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:31:41 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:31:41 WARN  WeatherMap:52 - SQL Exception in getWeatherMap
+2018-05-03 10:31:41 WARN  WeatherMap:96 - SQL Exception in getWeatherListByDate
+2018-05-03 10:31:41 WARN  ReadDaysMaxMinDB:50 - SQL exception (getStatistic method)
+2018-05-03 10:35:56 INFO  WeatherPage:340 - Page parameters have been passed! Num is: 1 Type is: pdf
+2018-05-03 10:36:03 INFO  WeatherPage:340 - Page parameters have been passed! Num is: 1 Type is: html
+2018-05-03 10:36:06 INFO  WeatherPage:340 - Page parameters have been passed! Num is: 2 Type is: pdf
+2018-05-03 10:36:11 INFO  WeatherPage:340 - Page parameters have been passed! Num is: 2 Type is: html
+2018-05-03 11:06:24 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 11:06:24 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 11:06:24 INFO  WeatherPage:82 - DateTo from form is: 2018-05-25
+2018-05-03 11:09:21 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 11:09:21 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 11:09:21 INFO  WeatherPage:82 - DateTo from form is: 2018-05-25
+2018-05-03 11:09:38 INFO  WeatherPage:143 - Forecast button is pressed
+2018-05-03 11:09:39 INFO  SavedWeatherDB:51 - Weather Forecast has been saved to DB
+2018-05-03 11:09:51 INFO  WeatherPage:340 - Page parameters have been passed! Num is: 1 Type is: pdf
+2018-05-03 11:09:56 INFO  WeatherPage:340 - Page parameters have been passed! Num is: 1 Type is: html
+2018-05-03 11:09:59 INFO  WeatherPage:340 - Page parameters have been passed! Num is: 2 Type is: html
+2018-05-03 11:12:02 WARN  myDB:64 - SQL exception during getting connection
+2018-05-03 11:12:03 WARN  myDB:64 - SQL exception during getting connection
+2018-05-03 11:12:03 WARN  myDB:64 - SQL exception during getting connection
+2018-05-03 11:18:31 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 11:18:31 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 11:18:31 INFO  WeatherPage:82 - DateTo from form is: 2018-05-25
+2018-05-03 11:22:11 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 11:22:11 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 11:22:11 INFO  WeatherPage:82 - DateTo from form is: 2018-05-25
+2018-05-03 11:26:08 INFO  HelloWorldApplication:28 - Properties have been read
+2018-05-03 11:29:17 INFO  HelloWorldApplication:28 - Properties have been read
+2018-05-03 11:31:18 INFO  HelloWorldApplication:28 - Properties have been read
+2018-05-03 11:31:26 INFO  WeatherPage:80 - filter button is pressed
+2018-05-03 11:31:26 INFO  WeatherPage:81 - DateFrom from form is: 2018-02-12
+2018-05-03 11:31:26 INFO  WeatherPage:82 - DateTo from form is: 2018-05-25
+2018-05-03 11:31:33 INFO  WeatherPage:340 - Page parameters have been passed! Num is: 2 Type is: html

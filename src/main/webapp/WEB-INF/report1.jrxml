@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9650fc8d-ca2a-41ae-b8d5-bc2b1a41475a">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="date" class="java.util.Date"/>
+	<field name="maxtemp" class="java.lang.String"/>
+	<field name="mintemp" class="java.lang.String"/>
+	<field name="wind_average" class="java.lang.String"/>
+	<variable name="maxtempall" class="java.lang.String" calculation="Highest">
+		<variableExpression><![CDATA[$F{maxtemp}]]></variableExpression>
+	</variable>
+	<variable name="date1" class="java.util.Date" calculation="Lowest">
+		<variableExpression><![CDATA[$F{date}]]></variableExpression>
+	</variable>
+	<variable name="date2" class="java.util.Date" calculation="Highest">
+		<variableExpression><![CDATA[$F{date}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="100" y="0" width="360" height="30" uuid="2c7710bb-c9f8-41c5-9087-c67d2c5c5b51"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Отчет о погоде (усредненные данные)]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="100" y="0" width="100" height="30" uuid="719b8573-2399-4213-925b-f48ca8cfbc34">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="08b21787-4880-4d03-a82c-98bd1d5ce2a9"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="0" width="100" height="30" uuid="23f22533-4b5d-425b-96a3-a7cd1364f52a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d9349f91-f07f-4d8e-9051-c4dd53227efc"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[maxtemp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="0" width="100" height="30" uuid="83e2b9fd-1ba6-4599-a892-b917340c9077">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="74564fd5-9c35-4b3a-930e-6d293724f131"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<text><![CDATA[mintemp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="400" y="0" width="100" height="30" uuid="63025bd0-aec3-40b5-b8e8-a4288e7b161f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="feb3b2e2-e171-48d9-8b09-21a793c1464e"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<text><![CDATA[Направление ветра]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="30" uuid="532f336c-1047-43e3-852b-c81353bb6f21"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[#]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="100" y="0" width="100" height="30" uuid="2917ad30-c165-4425-aa87-6a9e9c1786a3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="08b21787-4880-4d03-a82c-98bd1d5ce2a9"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+				<patternExpression><![CDATA["yyyy.MM.dd"]]></patternExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="0" width="100" height="30" uuid="259e4eb3-a3e2-482b-a780-0f6eb48ec69e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d9349f91-f07f-4d8e-9051-c4dd53227efc"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{maxtemp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="0" width="100" height="30" uuid="97305725-b90e-4c85-9b56-702253d2879c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="74564fd5-9c35-4b3a-930e-6d293724f131"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{mintemp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="0" width="100" height="30" uuid="41b2376b-6825-4f45-b80a-5c7567bfcbe3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="feb3b2e2-e171-48d9-8b09-21a793c1464e"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{wind_average}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="100" height="30" uuid="b3956c4d-cd56-4b69-9a9d-6e211bb13748"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="260" height="30" uuid="3098d5f1-3aea-4929-a7dd-b4a2264df505"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Отчет о погоде]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="73" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="170" height="30" uuid="43739790-9f8f-45b8-ba63-0e1acbe9715e"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Представлен отчет с]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="270" y="0" width="100" height="30" uuid="a22174ba-ffa4-4848-97f6-eebca56c5169"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{date1}]]></textFieldExpression>
+				<patternExpression><![CDATA["yyyy.MM.dd"]]></patternExpression>
+			</textField>
+			<staticText>
+				<reportElement x="390" y="0" width="40" height="30" uuid="e439dff6-3cda-40e8-8ba7-270266dd6f99"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[по]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="450" y="0" width="100" height="30" uuid="f1b34a3f-e87e-4378-bb89-73af0c372e8c"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{date2}]]></textFieldExpression>
+				<patternExpression><![CDATA["yyyy.MM.dd"]]></patternExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="30" width="260" height="30" uuid="c08db306-4ccf-4d68-86ea-8bdc9e28f1a7"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Максимальная температура]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="270" y="30" width="100" height="30" uuid="e8e0e7e4-7a3c-43a8-896d-d639737b612b"/>
+				<textFieldExpression><![CDATA[$V{maxtempall}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

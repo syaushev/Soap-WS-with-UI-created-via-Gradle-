@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd">
+    <changeSet author="Sergey (generated)" id="1524219064785-1">
+        <createTable tableName="weather_info">
+            <column autoIncrement="true" name="id" type="BIGSERIAL">
+                <constraints primaryKey="true" primaryKeyName="pk_weather_info"/>
+            </column>
+            <column name="city" type="VARCHAR(200)"/>
+            <column name="weatherid" type="SMALLINT"/>
+            <column name="zip" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="state" type="VARCHAR(100)"/>
+            <column name="description" type="VARCHAR(100)"/>
+            <column name="relativehumid" type="VARCHAR(100)"/>
+            <column name="success" type="VARCHAR(100)"/>
+            <column name="response_text" type="VARCHAR(100)"/>
+            <column name="temp" type="VARCHAR(100)"/>
+            <column name="wind" type="VARCHAR(100)"/>
+            <column name="date" type="date"/>
+            <column name="id_dir" type="SMALLINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Sergey (generated)" id="1524219064785-2">
+        <createTable tableName="weatherimages">
+            <column autoIncrement="true" name="id" type="BIGSERIAL">
+                <constraints primaryKey="true" primaryKeyName="pk_weatherimages"/>
+            </column>
+            <column name="description" type="VARCHAR(200)"/>
+            <column name="pictureURL" type="BYTEA"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Sergey (generated)" id="1524219064785-3">
+        <createTable tableName="winddirection">
+            <column name="id_dir" type="SMALLINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="direction" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Sergey (generated)" id="1524219064785-4">
+        <createTable tableName="zipcodes">
+            <column name="zip" type="VARCHAR(5)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="city" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="state" type="VARCHAR(100)"/>
+            <column name="weatherStation" type="VARCHAR(100)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Sergey (generated)" id="1524219064785-5">
+        <addPrimaryKey columnNames="id_dir" constraintName="winddirection_pkey" tableName="winddirection"/>
+    </changeSet>
+    <changeSet author="Sergey (generated)" id="1524219064785-6">
+        <addForeignKeyConstraint baseColumnNames="id_dir" baseTableName="weather_info" constraintName="fkey" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id_dir" referencedTableName="winddirection"/>
+    </changeSet>
+    <changeSet author="Sergey (generated)" id="1524219064785-7">
+        <createIndex indexName="fki_wind_dir_id" tableName="weather_info" unique="false">
+            <column name="id_dir"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="2" author="Sergey">
+        <addColumn tableName="zipcodes">
+            <column name="newcol" type="VARCHAR(100)"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="3" author="Sergey">
+        <dropColumn tableName="zipcodes">
+            <column name="newcol" type="VARCHAR(100)"/>
+        </dropColumn>
+    </changeSet>
+
+    <changeSet id="4" author="Sergey">
+        <addColumn tableName="zipcodes">
+            <column name="newcol" type="VARCHAR(100)"/>
+        </addColumn>
+    </changeSet>
+
+
+</databaseChangeLog>
